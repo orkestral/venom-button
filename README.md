@@ -29,7 +29,7 @@ Create a div element and select it with jQuery, then call the plugin using the f
 <script type="text/javascript">
   $(function () {
     $('#myDiv').venomButton({
-      phone: '5491133359850'
+      phone: '5521990000000'
     });
   });
 </script>
@@ -40,7 +40,7 @@ Enable a little fake chat window floating above the button:
 
 ```js
 $('#myDiv').venomButton({
-    phone: '5491133359850',
+    phone: '5521990000000',
     popupMessage: 'Hello, how can we help you?',
     showPopup: true
 });
@@ -54,7 +54,7 @@ You can customize the appearance of the button and the chat window:
 
 ```js
 $('#myDiv').venomButton({
-    phone: '5491133359850',
+    phone: '5521990000000',
     popupMessage: 'Hello, how can we help you?',
     message: "I'd like to order a pizza",
     showPopup: true,
