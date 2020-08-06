@@ -46,7 +46,7 @@ $('#myDiv').venomButton({
 });
 ```
 
-![Fake Chat Window](./assets/theme-default.png)
+<img src="./assets/theme-default.png" width="350">
 
 ### Customization
 
