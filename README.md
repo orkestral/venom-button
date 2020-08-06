@@ -69,7 +69,9 @@ $('#myDiv').venomButton({
     });
 ```
 
-![Custom settings](./assets/theme-black.png) (./assets/theme-red.png) (./assets/theme-blue.png)
+![](./assets/theme-black.png | width=150) 
+![](./assets/theme-red.png | width=150) 
+![](./assets/theme-blue.png | width=150)
 
 
 
