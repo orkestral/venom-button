@@ -29,7 +29,7 @@ Create a div element and select it with jQuery, then call the plugin using the f
 <script type="text/javascript">
   $(function () {
     $('#myDiv').venomButton({
-      phone: '5521990000000'
+      phone: '5491133359850'
     });
   });
 </script>
@@ -40,7 +40,7 @@ Enable a little fake chat window floating above the button:
 
 ```js
 $('#myDiv').venomButton({
-    phone: '5521990000000',
+    phone: '5491133359850',
     popupMessage: 'Hello, how can we help you?',
     showPopup: true
 });
@@ -54,7 +54,7 @@ You can customize the appearance of the button and the chat window:
 
 ```js
 $('#myDiv').venomButton({
-    phone: '5521990000000',
+    phone: '5491133359850',
     popupMessage: 'Hello, how can we help you?',
     message: "I'd like to order a pizza",
     showPopup: true,
@@ -83,7 +83,7 @@ $('#myDiv').venomButton({
 | headerColor         | any css color `string`                        | `'#128C7E'`              | Background color of the popup window title bar.
 | headerTitle         | `string`                                      | `'WhatsApp Chat'`        | Text to be displayed at the popup window title bar.
 | buttonImage         | `jQuery` object &#124; css selector `string`  | [this one](whatsapp.svg) | Button background image. Must be an `img` or `svg` in order to be displayed properly.
-| zIndex              | `Number` &#124; `string`                      | none                     | Overrides `.venom-button` div z-index. Use a z-index css property value.
+| zIndex              | `Number` &#124; `string`                      | none                     | Overrides `.floating-wpp` div z-index. Use a z-index css property value.
 | showOnIE            | `boolean`                                     | `true`                   | Whether to show or not the button on IE (recommended, since IE does not support WhatsApp Web).
 | size                | `string` (Any css option valid for width and height properties) | `'72px'` | The size of the button
 | backgroundColor     | Any css color `string`                        | `'#25D366'`               | The button backgrund color.
