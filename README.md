@@ -69,9 +69,12 @@ $('#myDiv').venomButton({
     });
 ```
 
-![](./assets/theme-black.png | width=150) 
-![](./assets/theme-red.png | width=150) 
-![](./assets/theme-blue.png | width=150)
+![Custom Chat](./assets/theme-black.png | width=150)
+
+![Custom Chat](./assets/theme-red.png | width=150)
+
+![Custom Chat](./assets/theme-blue.png | width=150
+
 
 
 
