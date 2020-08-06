@@ -83,16 +83,16 @@ $('#myDiv').venomButton({
 | phone               | `string`                                      | `''`                     | WhatsApp [intenational number](https://faq.whatsapp.com/en/general/21016748) which will receive the message.
 | message             | `string`                                      | `''`                     | Message to be sent. If `showPopup` is `true`, the input will be populated with this message.
 | position            | `'left'` &#124; `'right'`                     | `'left'`                 | Position of the button the screen.
-|  nameClient        | `string`                                      | `''`                     | Set name of clint in fake chat.
-|  chatMessage        | `string`                                      | `''`                     | Message to be shown as a received message in the fake chat.
+|  nameClient        | `string`                                      | `'Name Client'`                     | Set name of clint in fake chat.
+|  chatMessage        | `string`                                      | `'Hi there 👋<br><br>How can I help you?'`                     | Message to be shown as a received message in the fake chat.
 | showPopup           | `bool`                                        | `false`                  | Show a fake chat popup when the user hovers (on desktop) or clicks the button (on mobile).
 | linkButton           | `bool`                                        | `false`                  | Put the link on the button so that when clicked it also sends the user to whatsapp
 | autoOpenTimeout     | `Number`                                      | `0`                      | Set an amount of time in milliseconds for the popup to open automaticaly.
-| headerColor         | any css color `string`                        | `'#128C7E'`              | Background color of the popup window title bar.
+| headerColor         | any css color `string`                        | `'rgb(9, 94, 84)'`              | Background color of the popup window title bar.
 | headerTitle         | `string`                                      | `'WhatsApp Chat'`        | Text to be displayed at the popup window title bar.
 | buttonImage         | `jQuery` object &#124; css selector `string`  | [this one](whatsapp.svg) | Button background image. Must be an `img` or `svg` in order to be displayed properly.
 | avatar         | `jQuery` object &#124; css selector `string`  | [this one](avatar.jpg) | Set avatar image of fake chat. Must be an `img` or `svg` in order to be displayed properly.
 | zIndex              | `Number` &#124; `string`                      | none                     | Overrides `.venom-button` div z-index. Use a z-index css property value.
 | showOnIE            | `boolean`                                     | `true`                   | Whether to show or not the button on IE (recommended, since IE does not support WhatsApp Web).
 | size                | `string` (Any css option valid for width and height properties) | `'72px'` | The size of the button
-| backgroundColor     | Any css color `string`                        | `'#25D366'`               | The button backgrund color.
+| backgroundColor     | Any css color `string`                        | `'rgb(9, 94, 84)'`               | The button backgrund color.
